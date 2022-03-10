@@ -173,8 +173,8 @@ int main(int argc, char **argv)
     test("   [   \"  fail   \"   , false  , null     ]   ");
     test("[ \"fail\", \"etc\"");
 
-    test_from_file("case1.json");
-    test_from_file("case2.json");
+    test_from_file("test/case1.json");
+    test_from_file("test/case2.json");
 
     printf("================== Finish test ==================\n");
     return EXIT_SUCCESS;
